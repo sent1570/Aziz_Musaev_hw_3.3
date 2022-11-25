@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:background="@drawable/img"
+
+    >
+
+    </ImageView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="485dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/tg"
+        android:backgroundTint="@color/white">
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Vaccine Types Available"
+        android:textColor="@color/black"
+
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="There are types if of vaccines available to accelerate herd immunity, so that this pandemic will quickly disappear"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:padding="50dp"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+
+        />
+
+
+</FrameLayout>
